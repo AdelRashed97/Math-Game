@@ -14,8 +14,8 @@ class Question
   end
 
   def random_operator
-    operators = ["plus","minus","multiply","divided by"]
-    selector = rand(3)
+    operators = ["plus","minus","multiply"]
+    selector = rand(2)
     return operators[selector]
   end
 
@@ -27,8 +27,6 @@ class Question
       return @first - @second
     when "multiply"
       return @first * @second
-    when "divided by"
-      return @first / @second
     end
   end
 

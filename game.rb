@@ -31,9 +31,9 @@ class Game
         @game_over = true
 
         if (@player1.score > 0) 
-          puts "Player 1 with a score #{@player1.score}/3"
+          puts "Player 1  winswith a score #{@player1.score}/3"
         else
-          puts "Player 2 with a score #{@player2.score}/3"
+          puts "Player 2  wins with a score #{@player2.score}/3"
         end
         puts "------Game Over------"
         puts "-----Good Bye-----"
@@ -67,8 +67,4 @@ class Game
 
 end
 
-
-g= Game.new
-
-g.start
 

@@ -9,10 +9,3 @@ class Player
     @score -= 1
   end
 end
-
-player= Player.new(1)
-puts player.score
-
-player.decrease_score
-
-puts player.score

@@ -1,5 +1,5 @@
 class Question
-  attr_reader :question , :reader
+  attr_reader :question , :answer
   def initialize
     @first = random_integer
     @second = random_integer
